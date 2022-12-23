@@ -1,0 +1,22 @@
+.card{
+    max-width: 82%;
+    height: 200px;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+}
+.card1{
+    width: 33%;
+    height: 200px;
+    border: 1px solid rgb(224, 219, 219);
+    /* box-shadow: 1px; */
+    background-color: black;
+}
+.disc{
+    text-align: center;
+    margin: 70px 10px 50px 10px;
+    font-weight: bold;
+    color:black
+}
