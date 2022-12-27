@@ -1,9 +1,15 @@
 import Home from "./pages/home.jsx" 
+import {Routes,Route} from "react-router-dom"; 
+import Signin from './pages/signin.jsx'
 
 function App() {
   return (
     <>
-      <Home></Home>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/signin" element={<Signin/>}></Route>
+        
+      </Routes>
     </>
   );
 }

@@ -27,7 +27,7 @@ export default function nav() {
                         <a class="nav-link" href="#">+Create Event</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign in</a>
+                        <a class="nav-link" href="/signin">Sign in</a>
                     </li>
                     <form className="d-flex">
                         <input className="form-control me-2 " type="search" placeholder="Search" aria-label="Search" />

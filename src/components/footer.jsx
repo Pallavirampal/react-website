@@ -47,7 +47,6 @@ export default function footer() {
         </div>
         <div className="footer-country">
           <h4>Country</h4>
-          
           <table className="country">
             <tr>
               <a href=""><td>Argentina</td></a>
@@ -72,6 +71,11 @@ export default function footer() {
               <a href=""><td>United States</td></a>
             </tr>
           </table>
+        </div>
+      </div>
+      <div className='footer-end'>
+        <div className="foot-end">
+          <i class="fa-regular fa-copyright"><p>copywrite 2022 All Rights Reserved |</p><a>Powered by Amitech.co</a></i>
         </div>
       </div>
     </>
