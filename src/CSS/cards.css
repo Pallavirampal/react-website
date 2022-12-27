@@ -1,18 +1,5 @@
-.card{
-    max-width: 82%;
-    height: 200px;
-    margin: auto;
-    /* background-color: red; */
-    display: flex;
-    flex-direction:row;
-    gap: 30px;
-}
-.card1{
-    width: 33%;
-    height: 200px;
-    border: 1px solid rgb(224, 219, 219);
-    /* box-shadow: 1px; */
-    background-color: black;
+p{
+    margin: 0;
 }
 .disc{
     text-align: center;
@@ -20,3 +7,55 @@
     font-weight: bold;
     color:black
 }
+.container{
+    height: auto;
+    max-width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.card{
+    height: 300px;
+    width: 360px;
+    background-color: white;
+    box-shadow: 1px 2px 4px 2px rgb(196, 194, 194);
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.card-info{
+    display: flex;
+}
+.date{
+    margin: 20px 10px 0px 20px;
+    font-weight: bold;
+}
+.date h1{
+    font-size: 15px;
+    font-weight: bolder;
+    color: red;
+}
+.date p{
+    text-align: center;
+}
+.title{
+    margin: 20px 10px 0px 20px;
+}
+.title h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.title p{
+    font-size: 12px;
+    color: rgb(176, 174, 174);
+}
+.icon{
+    display: flex;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.icon i{
+    color:#21C0E8;
+    margin-top: 2px;
+}
+
