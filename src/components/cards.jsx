@@ -1,70 +1,30 @@
-import React from 'react'
-import '../CSS/nav.css'
-import '../CSS/cards.css'
+import React from "react";
+import '../CSS/cards.css';
 
-function cards() {
+
+function Card(props) {
+    // console.log(props);
     return (
-        <>
-            <h4 className='disc'>Discover Best Of Online Events</h4>
-            <div className='container'>
-                <div className='card'>
-                    <img src="https://fakeimg.pl/2x1" alt="" />
-                    <div className='card-info'>
-                        <div className='date'>
-                            <h1>JAN</h1>
-                            <p>25</p>
-                        </div>
-                        <div className='title'>
-                            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing</h1>
-                            <p>Online</p>
-                            <div className='icon'>
-                                <i class="fa-solid fa-star"></i>
-                                <p>16 people are interested! </p>
-                            </div>
-                        </div>
-                    </div>
+      <>
+          <div className='card'>
+            <img src={props.imgsrc} alt="" style={{width:"360px",height : "150px"}}/>
+            <div className='card-info'>
+              <div className='date'>
+                <h1>{props.month}</h1>
+                <p>{props.date}</p>
+              </div>
+              <div className='title'>
+                <h1>{props.heading}</h1>
+                <p>{props.subheading}</p>
+                <div className='icon'>
+                  <i class={props.icon}></i>
+                  <p>{props.para}</p>
                 </div>
-
-
-
-                <div className='card'>
-                    <img src="https://fakeimg.pl/2x1" alt="" />
-                    <div className='card-info'>
-                        <div className='date'>
-                            <h1>JAN</h1>
-                            <p>25</p>
-                        </div>
-                        <div className='title'>
-                            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing</h1>
-                            <p>Online</p>
-                            <div className='icon'>
-                                <i class="fa-solid fa-star"></i>
-                                <p>16 people are interested! </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='card'>
-                    <img src="https://fakeimg.pl/2x1" alt="" />
-                    <div className='card-info'>
-                        <div className='date'>
-                            <h1>JAN</h1>
-                            <p>25</p>
-                        </div>
-                        <div className='title'>
-                            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing</h1>
-                            <p>Online</p>
-                            <div className='icon'>
-                                <i class="fa-solid fa-star"></i>
-                                <p>16 people are interested! </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </>
-    )
-}
+          </div>
+      </>
+    );
+  }
 
-export default cards
+export default Card;

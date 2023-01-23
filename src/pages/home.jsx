@@ -1,17 +1,18 @@
+import React from 'react'
 import Nav from "../components/nav.jsx"
 import Slider from "../components/slider.jsx"
-import Cards from "../components/cards.jsx"
+import Container from '../components/container.jsx';
 import Footer from "../components/footer.jsx"
 
-import React from 'react'
 
 export default function home() {
   return (
     <>
       <Nav></Nav>
       <Slider></Slider>
-      <Cards></Cards>
+      <Container></Container>
       <Footer></Footer>
+      
     </>
   )
 }

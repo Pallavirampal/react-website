@@ -9,7 +9,7 @@ function UncontrolledExample() {
                 <Carousel.Item className='image'>
                     <img
                         className="d-block w-100"
-                        src="img1.jpg"
+                        src="https://wallpapercave.com/wp/wp2349395.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -21,7 +21,7 @@ function UncontrolledExample() {
                 <Carousel.Item className='image'>
                     <img
                         className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1539628399213-d6aa89c93074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cXVpenxlbnwwfHwwfHw%3D&w=1000&q=80"
+                        src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?cs=srgb&dl=pexels-teddy-yang-2263436.jpg&fm=jpg"
                         alt="Second slide"
                     />
 
@@ -34,7 +34,7 @@ function UncontrolledExample() {
                 <Carousel.Item className='image'>
                     <img
                         className="d-block w-100"
-                        src="https://www.cmu.edu/cmtoday/media/514618/rubiks_cube_1400x700-min.jpg%3Fanchor=center&mode=crop&width=1400&height=700&rnd=131315417010000000"
+                        src="https://www.hire4event.com/service/19-05-29-04-05-24corporate%20event%20by%20hire4event.jpg"
                     />
 
                     <Carousel.Caption>
